@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.overall-2 {
+  border: solid red;
+  min-height: 100vh;
+}
+
+.box-1 {
+  height: 65%;
+  width: 100%;
+  border: solid 2px green;
+  background-color: white;
+}
+
+.logo {
+  border: solid 1px yellowgreen;
+  width: 70px;
+  /* font-size: small; */
+}
+
+.logo img {
+  width: 50px;
+  margin: auto;
+}
+
+.header-1 {
+  border: solid 2px pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-1 li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-1 a:hover {
+  transition: all, linear 500ms;
+  color: red;
+}
+
+.bodys {
+  border: solid green;
+  margin-top: 30px;
+  height: 85vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-cont {
+  border: solid purple;
+  width: 60%;
+  height: 53rem;
+  display: flex;
+  justify-content: end;
+  
+}
+
+.image {
+  background-color: rgb(239, 239, 239);
+  margin-right: 40px;
+  clip-path: polygon(5% 0, 100% 0, 100% 28%, 100% 95%, 94% 100%, 0 100%, 0% 80%, 0 5%);
+}
+
+
+.text-cont {
+  border: solid black;
+  width: 45%;
+  padding-right: 50px;
+}
+
+.text-cont h1 {
+  margin-top: 10px;
+  font-size: 300%;
+}
+
+.text-cont p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.select {
+  border: solid goldenrod;
+  margin-bottom: 30px;
+  /* padding: 15px; */
+}
+
+.accord {
+  border: solid brown;
+  /* margin-right: 20px; */
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accord li {
+  /* margin-left: 0px; */
+  list-style: none;
+  margin-right: 10px;
+  /* display: inline-block; */
+}
+
+.accord button {
+  /* border: solid yellow; */
+  padding: 20px;
+  width: 70px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .img-cont { */
+  /* background-image: url("../imagesfolder/6ab96709-9f2d-4684-afba-88adfe29a435\ \(1\).png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
+
+
+
+.form-select {
+  border: solid gold;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.selects {
+  padding: 20px;
+}
+
+.btns {
+  padding: 20px;
+  margin-left: 15px;
+  border: solid sandybrown;
+  width: 30rem;
+  background-color: rgb(218, 20, 20);
+  color: white;
+  border: 0;
+}
+
+.btns:hover {
+  transition: all linear 200ms;
+  background-color: rgb(238, 121, 121);
+}

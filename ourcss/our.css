@@ -1,0 +1,389 @@
+* {
+  font-family: var(--font-family-base);
+  font-family: var(--font-weight-base);
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.overall-box {
+  min-height: 100vh;
+  min-width: 100%;
+  /* border: solid 2px red; */
+  background-color: rgb(226, 226, 226);
+}
+
+.box-1 {
+  height: 60rem;
+  width: 100%;
+  /* border: solid 2px green; */
+  background-color: white;
+}
+
+.logo {
+  /* border: solid 1px yellowgreen; */
+  width: 70px;
+  /* font-size: small; */
+}
+
+.logo img {
+  width: 50px;
+  margin: auto;
+}
+
+.header-1 {
+  /* border: solid 2px pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-1 li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-1 a:hover {
+  transition: all, linear 500ms;
+  color: red;
+}
+
+/* .list-1 { */
+/* padding-left: 10px; */
+/* } */
+
+.body-1 {
+  /* border: solid 2px yellow; */
+  margin-top: 15%;
+  height: 40%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.buttons-list {
+  /* border: solid 2px blueviolet; */
+  margin-top: 10px;
+  min-width: 40vw;
+}
+
+.sizing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-list li {
+  /* display: inline-block; */
+  margin-left: 20px;
+  margin-right: 20px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.buttons-list button {
+  padding: 30px;
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .buttons-list button {
+    width: 120px;
+  }
+
+  .buttons-list li {
+    margin: 0 10px;
+  }
+}
+
+.buttons-list button:hover {
+  transition: all linear 200ms;
+  background-color: rgb(48, 47, 47);
+  cursor: pointer;
+}
+
+.red button {
+  background-color: red;
+  cursor: pointer;
+  /* transform: rotate(30deg); */
+}
+/* .buttons-list ul .red { */
+/* transform: skew(50deg); */
+/* } */
+
+.red button:hover {
+  transition: all linear 200ms;
+  background-color: rgb(221, 71, 71);
+}
+
+.box-2 {
+  min-height: 50%;
+  max-width: 100%;
+  margin-top: 50px;
+  /* border: solid 2px blue; */
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sect {
+  height: 500px;
+  width: 400px;
+  /* border: solid 2px green; */
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+  /* text-align: start; */
+  transition: all 0.3s ease-out;
+  /* margin: 0 20px; */
+  /* margin-left: 20px; */
+  clip-path: polygon(
+    12% 0,
+    100% 0,
+    100% 27%,
+    100% 88%,
+    89% 100%,
+    0 100%,
+    0 73%,
+    0 12%
+  );
+}
+
+a {
+  text-decoration: none;
+}
+
+.sect:hover {
+  transform: scale(1.08);
+}
+
+.box-3 {
+  /* border: solid 3px black; */
+  height: 50vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  clip-path: polygon(
+    2% 0,
+    96% 0,
+    100% 0,
+    100% 88%,
+    97% 100%,
+    20% 100%,
+    0 100%,
+    0 9%
+  );
+}
+
+.red-box {
+  /* border: solid black; */
+  margin-right: 50px;
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.red-box a {
+  text-decoration: none;
+  color: red;
+}
+
+.reds {
+  background-color: red;
+  color: white;
+}
+
+.reds button {
+  background-color: white;
+  color: red;
+  width: 15%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.red-box button:hover {
+  transition: all linear 1000ms;
+  background-color: rgb(221, 165, 165);
+}
+
+.sect img {
+  width: 100%;
+}
+
+.sect h4 {
+  margin-left: 10px;
+}
+
+.sect p {
+  margin-left: 10px;
+}
+
+.text-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: solid brown 2px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.text {
+  font-size: x-large;
+  padding: 20px;
+}
+
+.button {
+  background-color: red;
+  width: 280px;
+  color: white;
+  padding: 20px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  margin-left: 3px;
+}
+
+.button:hover {
+  transition: all linear 0.2s;
+  background-color: rgb(247, 119, 119);
+}
+
+.box-4 {
+  background-color: aquamarine;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box-video {
+  min-height: 50vh;
+  width: 100%;
+  /* border: solid yellow 3px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.vid-1 {
+  /* background-image: url("../imagesfolder/hqdefault.jpg"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid-1 i {
+  font-size: xx-large;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+/* .vid-2 {
+  background-image: url("../imagesfolder/hqdefault\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* .vid-3 {
+  background-image: url("../imagesfolder/hqdefault\ \(3\).jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+
+.vid-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vid-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.vid-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  /* border: solid red 2px; */
+  min-height: 80%;
+  min-width: 30vw;
+  margin-top: 20px;
+  color: grey;
+}
+
+.video p {
+  font-weight: bolder;
+  color: black;
+}
+
+.video:hover {
+  transition: all 1s ease-out;
+  transform: scale(1.1);
+}
+
+.li {
+  height: 10vh;
+  text-align: center;
+}
+
+.li li {
+  display: inline-block;
+  list-style: none;
+  color: black;
+  padding: 20px;
+}
+
+.li a {
+  text-decoration: none;
+  color: black;
+}
+
+.li a:hover {
+  color: rgb(214, 77, 77);
+}
+
+.list-1 li {
+  /* border: solid red; */
+  padding: 10px;
+  /* margin-top: 40px; */
+}
+
+.list-2 li {
+  /* border: solid yellow; */
+  margin-top: 5px;
+}
